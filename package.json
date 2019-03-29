@@ -1,0 +1,38 @@
+{
+  "name": "@rduk/logger-winston-mail-factory",
+  "version": "0.0.1",
+  "description": "Mail transport factory for Winston implementation of RDUK logger",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-uk/rduk-logger-winston-mail-factory.git"
+  },
+  "keywords": [
+    "rduk",
+    "logger",
+    "winston",
+    "mail",
+    "factory"
+  ],
+  "author": "RDUK <tech@rduk.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rd-uk/rduk-logger-winston-mail-factory/issues"
+  },
+  "homepage": "https://github.com/rd-uk/rduk-logger-winston-mail-factory#readme",
+  "dependencies": {
+    "winston-mail": "^1.5.2"
+  },
+  "peerDependencies": {
+    "winston": "2.x"
+  },
+  "devDependencies": {
+    "winston": "2.x"
+  }
+}
